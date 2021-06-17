@@ -25,12 +25,16 @@ html, body {
 
 .bot-nav {
     display: flex;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
     background-color: rgb(243, 243, 243);
-    transform: translateY(32px);
     border-top-width: 1px;
-    height: 6.5%;
+    height: 45px;
+    opacity: 0.6;
+
     align-items: center;
-    margin-bottom: 0;
 }
 
 .e1 {

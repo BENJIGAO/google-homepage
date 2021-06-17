@@ -7,13 +7,29 @@
                 margin: 0;
             }
             
-            .container {
+            .main {
                 display: flex;
-                height: 100vh;
+                height: 70vh;
+                width: 50vw;
+                margin-left: 25vw;
+                margin-top: 4vw;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
     
+            }
+
+            .top-nav {
+                display: flex;
+                height: 10vh;
+                justify-content: flex-start;
+                align-items: center;
+
+
+            }
+
+            .bot-nav {
+
             }
 
             .e1 {
@@ -34,6 +50,12 @@
 
             .e5 {
                 transform: translateY(-200%)
+            }
+            .e6 {
+                transform: translateX(20px);
+            }
+            .e7 {
+                margin-left: auto;
             }
 
             #search-bar {
@@ -69,8 +91,10 @@
             button:hover {
                 color: rgb(185, 184, 184);
                 border: 1px solid gray;
-                
-             
+            }
+
+            #about {
+                margin-right: 5px;
             }
 
             
@@ -79,7 +103,19 @@
 
     </header>
     <body>
-        <div class="container">
+        <div class="top-nav">
+            <div class="e6">
+                <a id="about" href="#">About</a>
+                <a href="#">Store</a>
+            </div>
+            <div class="e7">
+                <a href="#">Gmail</a>
+                <a href="#">Images</a>
+                <img> 
+                <a href="#">Sign In</a>
+            </div>
+        </div>
+        <div class="main">
             <div class="e1">
                 <img src="images/google-logo.png" alt="google logo">
             </div>
@@ -101,8 +137,9 @@
                 <button>
                     I'm Feeling Lucky
                 </button>
-            </div>
+            </div>   
         </div>
+        
             
            
             

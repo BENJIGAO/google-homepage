@@ -2,29 +2,71 @@
 <html>
     <header>
         <style>
+            html, body {
+                padding: 0;
+                margin: 0;
+            }
+            
+            .container {
+                display: flex;
+                height: 100vh;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
     
-            img {
-                display: block;
-                margin: 155px auto 0 auto;
             }
-            input {
-                display: block;
-                margin: 20px auto 0px auto;
-                height: 50px;
-                width: 500px;
+            .element1 {
+                transform: translateY(-50%);
             }
+            .element2 {
+                transform: translateY(-50%);
+            }
+            .element3 {
+                transform: translate(-680%, -153%) scale(0.7);
+            }
+            .element4 {
+                transform: translate(810%, -220%) scale(0.6)
+
+            }
+            #search-bar {
+                width: 525px;
+                height: 38px;
+                border-radius: 25px;
+                border-style: solid;
+                border-color: light;
+                border-width: 1px;
+                padding-left: 50px;
+ 
+            }
+            input:hover {
+                box-shadow: 4em;
+                box-
+            }
+            
+            
         </style>
 
     </header>
     <body>
-        <div>
-            <img src="/images/google-logo.png" alt="google logo">
+        <div class="container">
+            <div class="element1">
+                <img src="images/google-logo.png" alt="google logo">
+            </div>
+            <div class="element2">
+                <form action="https://google.com" >
+                    <input id="search-bar" type="text" placeholder="Search" autofocus>
+                </form>
+            </div>
+            <div class="element3">
+                <img src="images/magnifying-glass.png" alt="magnifying glass for search input">
+            </div>
+            <div class="element4">
+                <img src="images/microphone.png" alt="microphone"> 
+            </div>
         </div>
-        <div>
-            <form action="https://google.com">
-                <input type="text">
-            </form>
-        </div>
+            
+           
+            
 
             
             

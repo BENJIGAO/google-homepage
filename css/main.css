@@ -1,0 +1,145 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.main {
+    display: flex;
+    height: 70vh;
+    width: 50vw;
+    margin-left: 25vw;
+    margin-top: 4vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-nav {
+    display: flex;
+    transform: translateY(5px);
+    height: 10vh;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bot-nav {
+    display: flex;
+    background-color: rgb(243, 243, 243);
+    transform: translateY(32px);
+    border-top-width: 1px;
+    height: 6.5%;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.e1 {
+    transform: translateY(-50%);
+}
+
+.e2 {
+    transform: translateY(-50%);
+}
+
+.e3 {
+    transform: translate(-680%, -153%) scale(0.7);
+}
+
+.e4 {
+    transform: translate(810%, -220%) scale(0.6)
+}
+
+.e5 {
+    transform: translateY(-200%)
+}
+
+.e6 {
+    transform: translateX(25px);
+}
+
+.e7 {
+    margin-left: auto;
+    transform: translate(-15px, -10px);
+}
+
+.e8 {
+    margin: auto 20px;
+}
+
+.e9 {
+    margin-left: auto;
+    margin-right: 22px;
+    color: inherit;
+}
+
+a {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: rgb(44, 44, 44);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#search-bar {
+    width: 525px;
+    height: 40px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: light;
+    border-width: 1px;
+    padding-left: 50px;
+}
+
+input:hover {
+    box-shadow: 0.1px 0.3px 3px 2px lightgray;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    color: rgb(112, 112, 112);
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border: none;
+    width: 130px;
+    height: 35px;
+    margin: 0 5px;
+}
+
+button:hover {
+    color: rgb(185, 184, 184);
+    border: 1px solid gray;
+}
+
+#about {
+    margin-right: 9px;
+}
+
+#menu {
+    transform: translateY(14px) scale(0.7);
+    margin-left: 10px;
+}
+
+#images {
+    margin-left: 10px;
+}
+
+#menu {
+    transform: translateY(14px) scale(0.7);
+    margin-left: 10px;
+}
+
+#sign-in {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    background-color: rgb(26, 115, 232);
+    padding: 6px 11px;
+    font-weight: 700;
+    border-radius: 2px;
+}

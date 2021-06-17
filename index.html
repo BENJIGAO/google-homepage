@@ -15,22 +15,30 @@
                 align-items: center;
     
             }
-            .element1 {
+
+            .e1 {
                 transform: translateY(-50%);
             }
-            .element2 {
+
+            .e2 {
                 transform: translateY(-50%);
             }
-            .element3 {
+
+            .e3 {
                 transform: translate(-680%, -153%) scale(0.7);
             }
-            .element4 {
-                transform: translate(810%, -220%) scale(0.6)
 
+            .e4 {
+                transform: translate(810%, -220%) scale(0.6)
             }
+
+            .e5 {
+                transform: translateY(-200%)
+            }
+
             #search-bar {
                 width: 525px;
-                height: 38px;
+                height: 40px;
                 border-radius: 25px;
                 border-style: solid;
                 border-color: light;
@@ -38,10 +46,33 @@
                 padding-left: 50px;
  
             }
+
             input:hover {
-                box-shadow: 4em;
-                box-
+                box-shadow: 0.1px 0.3px 3px 2px lightgray;
+                
             }
+
+            input:focus {
+                outline: none;
+            }
+            
+            button {
+                color: rgb(112, 112, 112);
+                background-color: whitesmoke;
+                border-radius: 5px;
+                border: none;
+                width: 130px;
+                height: 35px;
+                margin: 0 5px;
+            }
+
+            button:hover {
+                color: rgb(185, 184, 184);
+                border: 1px solid gray;
+                
+             
+            }
+
             
             
         </style>
@@ -49,19 +80,27 @@
     </header>
     <body>
         <div class="container">
-            <div class="element1">
+            <div class="e1">
                 <img src="images/google-logo.png" alt="google logo">
             </div>
-            <div class="element2">
+            <div class="e2">
                 <form action="https://google.com" >
-                    <input id="search-bar" type="text" placeholder="Search" autofocus>
+                    <input id="search-bar" type="text" autofocus>
                 </form>
             </div>
-            <div class="element3">
+            <div class="e3">
                 <img src="images/magnifying-glass.png" alt="magnifying glass for search input">
             </div>
-            <div class="element4">
+            <div class="e4">
                 <img src="images/microphone.png" alt="microphone"> 
+            </div>
+            <div class="e5">
+                <button>
+                    Google Search
+                </button>
+                <button>
+                    I'm Feeling Lucky
+                </button>
             </div>
         </div>
             
